@@ -4,9 +4,16 @@ var colors = ["Blue", "Red", "Orange", "Purple", "Hazel", "Aquamarine", "Periwin
 var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"];
 var hohohoElement = document.getElementById("coloredReindeer");
 
-//loop thru reindeer and join arrays
+//loop thru reindeer and join arrays, then display new stirng in html div.
+
 for (var r = 0; r < reindeer.length; r++){
-	var coloredReindeer = colors[0] + reindeer[0];
+	var coloredReindeer = colors[r] + reindeer[r];
 	console.log(coloredReindeer);
+	var hohohoElement = document.getElementById("coloredReindeer");
+	hohohoElement.innerHTML += colors[r] + "  " + reindeer[r] + "<br>";
 }
+
+
+
+
 
