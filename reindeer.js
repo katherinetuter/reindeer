@@ -4,7 +4,7 @@ var colors = ["Blue", "Red", "Orange", "Purple", "Hazel", "Aquamarine", "Periwin
 var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"];
 var hohohoElement = document.getElementById("coloredReindeer");
 
-//loop thru reindeer and join arrays, then display new stirng in html div.
+//loop thru reindeer and join arrays, then display new string in html div.
 
 for (var r = 0; r < reindeer.length; r++){
 	var coloredReindeer = colors[r] + reindeer[r];
